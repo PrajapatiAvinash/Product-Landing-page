@@ -1,0 +1,102 @@
+body, h2, p, form, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+#header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#header-img {
+    width: 100px; /* Adjust the size of your logo */
+}
+
+#nav-bar {
+    margin-top: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Sections Styles (Features, Pricing, Contact, Video) */
+section {
+    padding: 40px;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    body{
+        background-color:black;
+    }
+}
+
+/* Navbar Styles */
+#nav-bar {
+    margin-top: 20px;
+    display: flex; /* Apply Flexbox to the navigation bar */
+    justify-content: center; /* Horizontally center the nav links */
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px; /* Add margin to space out nav links */
+    font-weight: bold;
+}
